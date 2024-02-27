@@ -64,6 +64,8 @@ jobs:
 
     - name: compile v8
       run: |
+        ls -al
+        cd v8
         ./tools/dev/gm.py x64.release
         ls ./out/
     - name: archive artifacts
