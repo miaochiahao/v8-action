@@ -74,7 +74,7 @@ jobs:
       with:
         name: v8_release_$COMMIT
         path: |
-          ./out
+          ./v8/out
     
     # # compress this file
     # - name: zip depot_tools
