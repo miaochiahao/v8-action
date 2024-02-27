@@ -64,6 +64,7 @@ jobs:
 
     - name: compile v8
       run: |
+        source ~/.bash_profile
         ls -al
         cd v8
         ./tools/dev/gm.py x64.release
